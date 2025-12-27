@@ -9,9 +9,14 @@
     <h1>
         Rishabh and js
     </h1>
-    <button>"estop"</button>
+    <button id >"estart"</button>
+     <button id >"estop"</button>
 </body>
 <script>
-    
+   const sayDate = function(str){
+    console.log(str,Date.now())
+   }
+   const start =setInterval(sayDate,1000,"hola")
+   clearInterval(start)
 </script>
 </html>
